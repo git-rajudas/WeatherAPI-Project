@@ -10,6 +10,9 @@ const cityInput = document.getElementById("cityInput");
 
 const leftbtn = document.querySelector("#leftbtn");
 
+const API_KEY = "a49957df0cdb483c94d130052260403";
+
+
 getbtn.addEventListener("click", () => {
     if (!navigator.geolocation) {
         return alert("Geolocation not supported.");
@@ -27,7 +30,7 @@ async function success(position) {
         const { latitude, longitude } = position.coords;
 
         const response = await fetch(
-            `https://api.weatherapi.com/v1/current.json?key=a49957df0cdb483c94d130052260403&q=${latitude},${longitude}&aqi=no`
+            `https://api.weatherapi.com/v1/current.json?key=${API_KEY}&q=${latitude},${longitude}&aqi=no`
         );
 
         const data = await response.json();
