@@ -1,7 +1,6 @@
-Weather API Project
+# Weather API Project
 
 A simple **Weather Application** that fetches real-time weather data using a public Weather API and displays it based on the city entered by the user.
-
 This project demonstrates how to **work with APIs, fetch data using JavaScript, and display dynamic weather information in the UI**.
 
 
@@ -77,6 +76,28 @@ Example:
 ```javascript
 const API_KEY = "your_api_key_here";
 ```
+
+## 📸 Screenshot
+
+<img width="1917" height="825" alt="image" src="https://github.com/user-attachments/assets/2c93614c-c7a5-4e3c-af3d-3ac9750acc6e" />
+# 🌡 Current Location Weather Details
+<img width="1915" height="828" alt="image" src="https://github.com/user-attachments/assets/c85992b5-38f5-46d4-8046-e7e79506644b" />
+# 🌍 Search weather by city name
+<img width="1918" height="831" alt="image" src="https://github.com/user-attachments/assets/46268fbd-92e6-416b-a675-fcc86405b5b2" />
+
+
+---
+
+## 🎯 Learning Goals
+
+This project helped me learn:
+
+* How to work with **REST APIs**
+* Fetch data using **JavaScript fetch()**
+* Handle **JSON responses**
+* Display **dynamic data in the DOM**
+
+---
 
 
 ## 📌 Future Improvements
